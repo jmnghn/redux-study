@@ -28,7 +28,7 @@ const initialState = {
 
 const store = createStore(reducer, initialState);
 
-console.log(store.getState()); // undefined 인데 ? -.-;; reducer 가 return 한 state 를 받아오는 함수구나...
+console.log(store.getState()); // reducer 가 return 한 state 를 받아오는 '순수함수'...
 
 // store.dispatch({
 //     type: 'FOO_ACTION',
