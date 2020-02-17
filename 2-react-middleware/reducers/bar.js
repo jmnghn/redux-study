@@ -1,4 +1,8 @@
-const initialState = {};
+const initialState = {
+    a: 'a',
+    b: 1,
+    c: true,
+};
 
 const barReducer = (prevState = initialState, action) => {
     switch (action.type) {
